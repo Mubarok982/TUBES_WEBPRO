@@ -20,9 +20,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Mahasiswa</a>
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-item nav-link" href="<?= base_url();?>">Home <span class="sr-only"></span></a>
+        <a class="nav-item nav-link" href="<?= base_url();?>mahasiswa">Mahasiswa</a>
+        <a class="nav-item nav-link" href="#">About</a>
       </div>
     </div>
   </div>
